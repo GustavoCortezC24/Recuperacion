@@ -7,6 +7,7 @@ import java.util.List;
 
 import com.tecsup.petclinic.entities.Pet;
 import com.tecsup.petclinic.exception.PetNotFoundException;
+import com.tecsup.petclinic.services.PetService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ public class PetServiceIntegrationTest {
 
     @Test
     public void testFindAllPets() {
+
         List<Pet> pets = (List<Pet>) petService.findAll();
         assertNotNull(pets);
         assertEquals(13, pets.size());
@@ -29,6 +31,7 @@ public class PetServiceIntegrationTest {
 
     @Test
     public void testFindPetById() throws PetNotFoundException {
+
         long petId = 1L;
         Pet pet = petService.findById(petId);
         assertNotNull(pet);

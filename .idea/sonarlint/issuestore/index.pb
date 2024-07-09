@@ -31,3 +31,5 @@ s
 Csrc/test/java/com/tecsup/petclinic/services/PetServiceUnitTest.java,8/b/8b00fbe35d7b0a205ee7dffc37d53edae7cf1c25
 z
 Jsrc/test/java/com/tecsup/petclinic/services/PetServiceIntegrationTest.java,4/9/499c121585904d893512f38acb4bf61f26942a20
+q
+Asrc/main/java/com/tecsup/petclinic/controllers/PetController.java,e/a/eaf1eb782679440c42fa6d774b62f6336c696ef1
